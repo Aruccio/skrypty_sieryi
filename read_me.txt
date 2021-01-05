@@ -18,3 +18,11 @@ ogolnodostepnej. Nie chcesz, odhacz skrypcik.
 - kamien() - funkcja w budowie (dodaje do kamienia
 dopisek, co kamyk robi po wprawieniu go, ale baza
 kamieni jest niegotowa jeszcze, pozniej ja doloze)
+
+
+=====================================================
+             skrypty_triggerry_inne
+
+- na czarujacego kaplana
+- koloruje obozowy alarm
+- wprawiony w bron kamien znika (dziala na harpunie)
