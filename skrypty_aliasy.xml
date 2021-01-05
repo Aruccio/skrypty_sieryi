@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<AliasPackage>
+		<AliasGroup isActive="yes" isFolder="yes">
+			<name>aliasy udostpeniane</name>
+			<script></script>
+			<command></command>
+			<packageName></packageName>
+			<regex></regex>
+			<Alias isActive="yes" isFolder="no">
+				<name>zmeczenie</name>
+				<script> local a = {
+  [0] = {"W pelni."},
+  [1] = {"Wypoczeta."},
+  [2] = {"Troche zmeczona."},
+  [3] = {"Zmeczona."},
+  [4] = {"Bardzo zmeczona."},
+  [5] = {"Nieco wyczerpana."},
+  [6] = {"Wyczerpana."},
+  [7] = {"Bardzo wyczerpana..."},
+  [8] = {"Wycienczona..."},
+  [9] = {"Calkowicie wycienczona..."},
+}
+if gmcp.char.state.fatigue then
+  local b = a[gmcp.char.state.fatigue]
+  send("'"..b[math.random(1, #b)])
+else
+  local c = a[0][math.random(1, #a[0])]
+  send("'"..c)
+end</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^zm$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>zabijnumer</name>
+				<script>alias_func_skrypty_team_zabij_id(matches[2])</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^z([ob_0-9]+)$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>odtrutki</name>
+				<script>cecho([[&lt;light_cyan:&gt;
++=========================================================+
+|                ZNANE ODTRUTKI                           |
+|                                                         |
+| CHOROBA PLUC:       powachaj chaber                     |
+|                                                         |
+| CHOROBA SKORY:      rozkrusz us.jaskier                 |
+|                     przyloz lukrecje                    |
+|                     przyloz nawloc                      |
+|                     sproszkuj us.przelot                |
+|                     sproszkuj us.starzec                |
+|                                                         |
+| CHOROBA ZAKAZNA:    wetrzyj bez                         |
+|                     przezuj krzyzownice                 |
+|                     rozgryz siezygron                   |
+|                                                         |
+| GADZI JAD:          zjedz barwinka                      |
+|                     przezuj rdest wezownik              |
+|                     przezuj krzyzownice                 |
+|                     przezuj pieciornik                  |
+|                     rozgryz siezygron                   |
+|                     rozkrusz us.boldoe                  |
+|                                                         |
+| JAD INSEKTA:        zjedz barwinka                      |
+|                     rozkrusz us.boldoe                  |
+|                     przezuj chabra                      |
+|                     przezuj us.mandragore               |
+|                     przezuj pieciornik                  |
+|                     przezuj us.ranog                    |
+|                     rozgryz siezygron                   |
+| PASOZYTY:           przyloz bagno                       |
+|                     wetrzyj bylice cytwarowa            |
+|                     wetrzyj bylice piolun               |
+|                                                         |
+| ROSLINNA:           przezuj chabra                      |
+|                     przezuj pieciornik                  |
+|                     rozgryz siezygron                   |
+|                     rozkrusz us.boldoe                  |
+|                                                         |
+| POKARMOWY:          przezuj bez                         |
+|                     rozkrusz us.boldoe                  |
+|                     zjedz centurie                      |
+|                     rozgryz nawloc                      |
+|                     przezuj nostrzyk                    |
+|                     powachaj rumianek                   |
+|                                                         |
+|                                                         |
+| PCHLY:              polknij us.rosiczke                 |
+|                     przyloz wrotycz                     |
+|                                                         |
+| TRAD:  (stan 1)     wetrzyj bylice piolun               |
+|        (stan 2)     rozkrusz us.jaskier                 |
+|        (stan 3)     sproszkuj us.przelot                |
++=========================================================+]])</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^odtr$</regex>
+			</Alias>
+		</AliasGroup>
+	</AliasPackage>
+</MudletPackage>

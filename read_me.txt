@@ -26,3 +26,16 @@ kamieni jest niegotowa jeszcze, pozniej ja doloze)
 - na czarujacego kaplana
 - koloruje obozowy alarm
 - wprawiony w bron kamien znika (dziala na harpunie)
+
+
+====================================================
+                skrypty_aliasy
+
+- zmeczenie - 1) po wpisaniu komendy zm poda obecne
+zmeczenie typu X mowi: Jestem zmeczona. Ale panowie
+musza sobie zamienic na meskie wersje, bo jest
+"wypoczeta", "zmeczona", etc.
+- zabijnumer - jak sie wpisze z1,z2,z3,z10, to tak
+jakby sie wpisalo /z 1, /z 2, /z 3, /z 10
+- odtrutki - ladniutka tabelka znanych odtrutek, gdy
+sie wpisze odtr
