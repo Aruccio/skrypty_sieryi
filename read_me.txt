@@ -26,6 +26,9 @@ kamieni jest niegotowa jeszcze, pozniej ja doloze)
 - na czarujacego kaplana
 - koloruje obozowy alarm
 - wprawiony w bron kamien znika (dziala na harpunie)
+- kolorowe tabliczki w reakcji na "Jestes (kondycja)"
+dzieki ktorym lepiej widac, ze ktos ranny, jakby
+umknelo
 
 
 ====================================================
