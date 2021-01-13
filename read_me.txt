@@ -43,3 +43,8 @@ musza sobie zamienic na meskie wersje, bo jest
 jakby sie wpisalo /z 1, /z 2, /z 3, /z 10
 - odtrutki - ladniutka tabelka znanych odtrutek, gdy
 sie wpisze odtr
+
+====================================================
+
+plik alarmblok.mp3, bo nie umiem robic timerow.
+Caly dzwiek ma 4 alarmy + 1.5s poczekać, to minie blok
