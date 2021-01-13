@@ -357,6 +357,67 @@
 					</regexCodePropertyList>
 				</Trigger>
 			</TriggerGroup>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>WIELKIE BLOKOWANIE</name>
+				<script>if matches[3]=="ci" then
+cecho([[&lt;gold:&gt;
+!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!
+
+     ]]..matches[2]..[[ BLOKUJE ciebie
+
+!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!]])
+
+else
+cecho([[&lt;gold:&gt;
+!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!
+
+     ]] ..matches[2]..[[ BLOKUJE ]]..matches[3]..[[
+
+
+!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!]])
+end</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>\[    BLOK    \] (.*) przymierza sie do odciecia (.*) drogi ucieczki\.</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>WIELKIE WLASNE BLOKOWANIE</name>
+				<script>cecho([[&lt;gold:&gt;
+!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!
+
+     BLOKUJESZ ]]..matches[2]..[[ droge
+
+!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!~!]])</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>Przymierzasz sie do odciecia (.*) drogi ucieczki.</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
 		</TriggerGroup>
 	</TriggerPackage>
 </MudletPackage>

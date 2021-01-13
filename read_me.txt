@@ -29,6 +29,7 @@ kamieni jest niegotowa jeszcze, pozniej ja doloze)
 - kolorowe tabliczki w reakcji na "Jestes (kondycja)"
 dzieki ktorym lepiej widac, ze ktos ranny, jakby
 umknelo
+- wielka ramka na blokowanie
 
 
 ====================================================
