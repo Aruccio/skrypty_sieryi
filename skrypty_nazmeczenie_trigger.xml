@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<TriggerPackage>
+		<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<name>nazmeczenie</name>
+			<script></script>
+			<triggerType>0</triggerType>
+			<conditonLineDelta>0</conditonLineDelta>
+			<mStayOpen>0</mStayOpen>
+			<mCommand></mCommand>
+			<packageName></packageName>
+			<mFgColor>#ff0000</mFgColor>
+			<mBgColor>#ffff00</mBgColor>
+			<mSoundFile></mSoundFile>
+			<colorTriggerFgColor>#000000</colorTriggerFgColor>
+			<colorTriggerBgColor>#000000</colorTriggerBgColor>
+			<regexCodeList />
+			<regexCodePropertyList />
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Calkowicie wycienczony</name>
+				<script>selectCurrentLine()
+selectString(matches[3], 1)
+fg("ansi_light_red")
+resetFormat()</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>(.*)Zziajanym glosem meldujesz, ze jestes (calkowicie wycienczon[ya])</string>
+					<string>Zziajanym glosem(.*)melduje, ze jest (calkowicie wycienczon[ya])</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>wycienczona</name>
+				<script>selectCurrentLine()
+selectString(matches[3], 1)
+fg("ansi_light_red")
+resetFormat()</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>(.*)Zziajanym glosem meldujesz, ze jestes (wycienczon[ya])</string>
+					<string>Zziajanym glosem(.*)melduje, ze jest (wycienczon[ya])</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Nieco wyczerpana</name>
+				<script>selectCurrentLine()
+selectString(matches[3], 1)
+fg("ansi_light_yellow")
+resetFormat()</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>Zziajanym glosem(.*)melduje, ze jest (nieco wyczerpan[ya]).</string>
+					<string>(.*)Zziajanym glosem meldujesz, ze jestes (nieco wyczerpan[ya]).</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Bardzo zmeczony</name>
+				<script>selectCurrentLine()
+selectString(matches[3], 1)
+fg("ansi_light_yellow")
+resetFormat()</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>Zziajanym glosem(.*)melduje, ze jest (bardzo zmeczon[ya])</string>
+					<string>(.*)Zziajanym glosem meldujesz, ze jestes (bardzo zmeczon[ya])</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Zmeczona</name>
+				<script>selectCurrentLine()
+selectString(matches[3], 1)
+fg("green")
+resetFormat()</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>Charakterystycznym wojskowym tonem(.*)melduje, ze jest (zmeczon[ya])</string>
+					<string>(.*)Charakterystycznym wojskowym tonem meldujesz, ze jestes (zmeczon[ya])</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Troche zmeczony</name>
+				<script>selectCurrentLine()
+selectString(matches[3], 1)
+fg("green")
+resetFormat()</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>Charakterystycznym wojskowym tonem(.*)melduje, ze jest (troche zmeczon[ya]).</string>
+					<string>(.*)Charakterystycznym wojskowym tonem meldujesz, ze jestes (troche zmeczon[ya]).</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Wypoczeta</name>
+				<script>selectCurrentLine()
+selectString(matches[3], 1)
+fg("green")
+resetFormat()</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>Charakterystycznym wojskowym tonem(.*)melduje, ze jest (wypoczet[ya]).</string>
+					<string>(.*)Charakterystycznym wojskowym tonem meldujesz, ze jestes (wypoczet[ya]).</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>W pelni wypoczety</name>
+				<script>selectCurrentLine()
+selectString(matches[3], 1)
+fg("green")
+resetFormat()</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>Charakterystycznym wojskowym tonem(.*)melduje, ze jest (w pelni wypoczet[ya])</string>
+					<string>(.*)Charakterystycznym wojskowym tonem meldujesz, ze jestes (w pelni wypoczet[ya])</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>wyczerpany</name>
+				<script>selectCurrentLine()
+selectString(matches[3], 1)
+fg("ansi_light_yellow")
+resetFormat()</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>(.*)Zziajanym glosem meldujesz, ze jestes (wyczerpan[ya])</string>
+					<string>Zziajanym glosem(.*)melduje, ze jest (wyczerpany[ya])</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Bardzo wyczerpana</name>
+				<script>selectCurrentLine()
+selectString(matches[3], 1)
+fg("ansi_light_red")
+resetFormat()</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>(.*)Zziajanym glosem meldujesz, ze jestes (bardzo wyczerpan[ya]).</string>
+					<string>Zziajanym glosem(.*)melduje, ze jest (bardzo wyczerpan[ya]).</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+		</TriggerGroup>
+	</TriggerPackage>
+</MudletPackage>

@@ -254,6 +254,28 @@
 						<integer>0</integer>
 					</regexCodePropertyList>
 				</Trigger>
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="yes" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>wejscie na pustki</name>
+					<script>my_gps(,"POPRAWIAM LOKACJE - wejscie na Pustki")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>Na zachodzie widac trakt, oznaczajacy dla ciebie zbawienie i mozliwosc ucieczki z tego odpychajacego miejsca.</string>
+						<string>Jest tutaj szesc widocznych wyjsc: polnocny-wschod, poludniowy-wschod, wschod, poludnie, polnoc i zachod.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>0</integer>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
 			</TriggerGroup>
 			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 				<name>Ziemie Czaszki</name>
@@ -852,6 +874,26 @@
 						<integer>0</integer>
 					</regexCodePropertyList>
 				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Kasztel - biblioteka</name>
+					<script>my_gps(170921, "POPRAWIAM LOKACJE - biblioteka w kasztelu")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>Zapalona, szklana lampka stoi na niewielkim stoliczku z drewna, ktory ktos postawil z lewej strony pomiedzy paleniskiem a fotelem. W powietrzu unosi sie drazniacy nozdrza zapach ziela fajkowego.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
 			</TriggerGroup>
 			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 				<name>Gory Czarne i Kranca Swiata</name>
@@ -886,6 +928,324 @@
 					</regexCodeList>
 					<regexCodePropertyList>
 						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+			</TriggerGroup>
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>PORTALE</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList />
+				<regexCodePropertyList />
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="yes" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>SE - Pajaki w Gorach Czarnych</name>
+					<script>my_gps(23621, "POPRAWIAM PORTAL - pajaki w Gorach Czarnych")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>2</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>Od prowadzacego z poludniowego-zachodu na poludniowy-wschod korytarza odchodzi w tym miejscu waska szczelina, prowadzaca na polnoc.*Cala jaskinie zalega zatechle powietrze, cuchnace zgnilizna i odorem smierci.</string>
+						<string>Korytarze jaskini ciagna sie na portal, poludniowy-zachod, poludniowy-wschod i polnoc.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>S - Xavier</name>
+					<script>my_gps(24525, "POPRAWIAM PORTAL - Xavier")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>Znajdujesz sie w niewielkim pomieszczeniu na wschod od kaplicy. W powietrzu unosi sie zapach kadzidla drazniacy twoje nozdrza. Jedyna rzecz warta tu uwagi jest tajemniczy kamienny portal w rogu pomieszczenia. Glucha cisza powoduje, ze mozna miec ochote odwracac sie co chwile szukajac za swoimi plecami wielkiego, sliniacego sie potwora. Jedyne wyjscie prowadzi na zachod, z powrotem do kaplicy.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="yes" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>SE - Valkare</name>
+					<script>my_gps(20177,"POPRAWIAM PORTAL - Valkare")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>2</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>Widzisz resztki muru wzniesionego z olbrzymich, starannie obrobionych blokow kamiennych.*W slepo zakonczonej alejce na samym srodku stoi dziwny portal - wysoka, polokraglo sklepiona brame mozna obejsc dookola, jakby nigdzie nie prowadzila.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>NW - Brokilon</name>
+					<script>my_gps(19683,"POPRAWIAM PORTAL - Brokilon")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>opis lokacji w broku</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>N - Tretogor</name>
+					<script>my_gps(2840, "POPRAWIAM PORTAL - Tretogor")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>opis lokacji</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>SW- Baccala</name>
+					<script>my_gps(9798,"POPRAWIAM PORTAL - podziemia Baccali")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>opis lokacji</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>E - Gory Sine</name>
+					<script>my_gps(8550, "POPRAWIAM PORTAL - Gory Sine")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>opis lokacji</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>SW - Khelor</name>
+					<script>my_gps(11099, "POPRAWIAM PORTAL - Khelor")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>Stoisz na niewielkiej polce zawieszonej nad gleboka przepascia.*W pionowej skalnej scianie pietrzacej sie ostro w gore zauwazasz na wpol juz zatarty slad jakichs kamiennych wrot lub raczej portalu.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>W - Las Salignac</name>
+					<script>my_gps(11946, "POPRAWIAM PORTAL - Las kolo Salignac")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>.*Posrodku polanki, na niewysokim wzniesieniu, dostrzegasz kilkanascie omszalych glazow ustawionych w miare regularny krag, zatopiony posrod mlodziutkich drzew.*</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>E - Twierdza Slaneesha</name>
+					<script>my_gps(17180, "POPRAWIAM PORTAL - Twierdza Slaneesha")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>2</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>Po srodku komnaty, dokladnie w centrum, znajduje sie foremny kamien z widocznymi rowkami, sluzacymi zapewne do odprowadzania nadmiaru krwi. Tuz obok kamienia stoi wysoki portal z jasnego kamienia.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>NE - Wezendorf</name>
+					<script>my_gps(24218, "POPRAWIAL PORTAL - Wezendorf")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>Na srodku komnaty ustawiono wysoki, marmurowy portal, pod ktorego sklepieniem kryje sie pieknie zdobiony oltarz.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>W - Rozrog</name>
+					<script>my_gps(20808, "POPRAWIAM PORTAL - Rozrog")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>opis lokacji</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>S - Mahakam</name>
+					<script>my_gps(22782, "POPRAWIAM PORTAL - Mahakam")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>opis lokacji</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>NE - Gelibol</name>
+					<script>my_gps(24587, "POPRAWIAM PORTAL - Gelibol")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>opis lokajci</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>N - Las hobgoblinow</name>
+					<script>my_gps(11403, "POPRAWIAM PORTAL - las hobgoblinow")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>.*Wsrod pni drzew stoi sie tutaj dziwny portal z jasnego kamienia, samotny niby framuga drzwi do domostwa, ktore nigdy nie zostalo wzniesione.*</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
 					</regexCodePropertyList>
 				</Trigger>
 			</TriggerGroup>

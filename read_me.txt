@@ -45,6 +45,11 @@ jakby sie wpisalo /z 1, /z 2, /z 3, /z 10
 sie wpisze odtr
 
 ====================================================
+          skrypty_nazmeczenie_trigger
 
+Koloruje na zielony, zolty i czerwony nazmeczenie
+Kompanii Gryfa.
+
+====================================================
 plik alarmblok.mp3, bo nie umiem robic timerow.
 Caly dzwiek ma 4 alarmy + 1.5s poczekać, to minie blok
