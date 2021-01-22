@@ -235,7 +235,7 @@ resetFormat()</script>
 				<colorTriggerBgColor>#000000</colorTriggerBgColor>
 				<regexCodeList>
 					<string>(.*)Zziajanym glosem meldujesz, ze jestes (wyczerpan[ya])</string>
-					<string>Zziajanym glosem(.*)melduje, ze jest (wyczerpany[ya])</string>
+					<string>Zziajanym glosem(.*)melduje, ze jest (wyczerpan[ya]).</string>
 				</regexCodeList>
 				<regexCodePropertyList>
 					<integer>1</integer>
