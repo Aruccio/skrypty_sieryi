@@ -53,7 +53,7 @@
 					</regexCodePropertyList>
 				</Trigger>
 				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-					<name>oboz pobudka</name>
+					<name>oboz - sypialnia</name>
 					<script>my_gps(24182, "POPRAWIAM LOKACJE - sypialnia")</script>
 					<triggerType>0</triggerType>
 					<conditonLineDelta>2</conditonLineDelta>
@@ -73,7 +73,7 @@
 					</regexCodePropertyList>
 				</Trigger>
 				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-					<name>oboz goscinny</name>
+					<name>oboz - goscinny</name>
 					<script>my_gps(15502,"POPRAWIAM LOKACJE - namiot goscinny")</script>
 					<triggerType>0</triggerType>
 					<conditonLineDelta>0</conditonLineDelta>
@@ -132,6 +132,26 @@
 					<regexCodePropertyList>
 						<integer>1</integer>
 						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>oboz - po zgonie</name>
+					<script>my_gps(24182, "POPRAWIAM LOKACJE - sanitarny")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>.*Domysly potwierdza wielki krzyz, wymalowany na scianie namiotu przy pomocy czerwonej farby.*</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
 					</regexCodePropertyList>
 				</Trigger>
 			</TriggerGroup>
@@ -948,7 +968,7 @@
 				<regexCodePropertyList />
 				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="yes" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 					<name>SE - Pajaki w Gorach Czarnych</name>
-					<script>my_gps(23621, "POPRAWIAM PORTAL - pajaki w Gorach Czarnych")</script>
+					<script>my_gps(16912, "POPRAWIAM PORTAL - pajaki w Gorach Czarnych")</script>
 					<triggerType>0</triggerType>
 					<conditonLineDelta>2</conditonLineDelta>
 					<mStayOpen>0</mStayOpen>
@@ -1206,7 +1226,7 @@
 						<integer>1</integer>
 					</regexCodePropertyList>
 				</Trigger>
-				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 					<name>NE - Gelibol</name>
 					<script>my_gps(24587, "POPRAWIAM PORTAL - Gelibol")</script>
 					<triggerType>0</triggerType>
@@ -1220,10 +1240,10 @@
 					<colorTriggerFgColor>#000000</colorTriggerFgColor>
 					<colorTriggerBgColor>#000000</colorTriggerBgColor>
 					<regexCodeList>
-						<string>opis lokajci</string>
+						<string>.*Czarne, matowe sciany niczym milczacy straznicy otaczaja to miejsce z trzech stron, pilnujac dziwnego, wolnostojacego marmurowego portalu, ktory niczym zamkniete sila usta skrywa niewypowiedziane tajemnice.*</string>
 					</regexCodeList>
 					<regexCodePropertyList>
-						<integer>0</integer>
+						<integer>1</integer>
 					</regexCodePropertyList>
 				</Trigger>
 				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">

@@ -18,7 +18,7 @@
 			<regexCodeList />
 			<regexCodePropertyList />
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Calkowicie wycienczony</name>
+				<name>Calkowicie wycienczony/a</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("ansi_light_red")
@@ -43,7 +43,7 @@ resetFormat()</script>
 				</regexCodePropertyList>
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>wycienczona</name>
+				<name>wycienczony/a</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("ansi_light_red")
@@ -68,7 +68,7 @@ resetFormat()</script>
 				</regexCodePropertyList>
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Nieco wyczerpana</name>
+				<name>Nieco wyczerpany/a</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("ansi_light_yellow")
@@ -93,7 +93,7 @@ resetFormat()</script>
 				</regexCodePropertyList>
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Bardzo zmeczony</name>
+				<name>Bardzo zmeczony/a</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("ansi_light_yellow")
@@ -118,7 +118,7 @@ resetFormat()</script>
 				</regexCodePropertyList>
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Zmeczona</name>
+				<name>Zmeczony/a</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("green")
@@ -143,7 +143,7 @@ resetFormat()</script>
 				</regexCodePropertyList>
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Troche zmeczony</name>
+				<name>Troche zmeczony/a</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("green")
@@ -168,7 +168,7 @@ resetFormat()</script>
 				</regexCodePropertyList>
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Wypoczeta</name>
+				<name>Wypoczety/a</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("green")
@@ -193,7 +193,7 @@ resetFormat()</script>
 				</regexCodePropertyList>
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>W pelni wypoczety</name>
+				<name>W pelni wypoczety/a</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("green")
@@ -218,7 +218,7 @@ resetFormat()</script>
 				</regexCodePropertyList>
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>wyczerpany</name>
+				<name>wyczerpany/a</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("ansi_light_yellow")
@@ -243,7 +243,7 @@ resetFormat()</script>
 				</regexCodePropertyList>
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Bardzo wyczerpana</name>
+				<name>Bardzo wyczerpany/a</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("ansi_light_red")
