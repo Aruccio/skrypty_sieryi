@@ -37,9 +37,12 @@
 					<integer>0</integer>
 				</regexCodePropertyList>
 			</Trigger>
-			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="yes" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 				<name>KAPLAN CZARUJE</name>
-				<script>cecho("\n\n&lt;yellow&gt;[INTAKACJA] &lt;cyan&gt; !! KAPLAN CZARUJE !!  &lt;yellow&gt;[INTAKACJA]")</script>
+				<script>cecho("\n&lt;red&gt;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n")
+cecho("&lt;yellow&gt;[INTAKACJA] &lt;cyan&gt; !! KAPLAN CZARUJE !!  &lt;yellow&gt;[INTAKACJA]")
+cecho("\n&lt;red&gt;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+</script>
 				<triggerType>0</triggerType>
 				<conditonLineDelta>0</conditonLineDelta>
 				<mStayOpen>0</mStayOpen>
@@ -47,7 +50,7 @@
 				<packageName></packageName>
 				<mFgColor>#ff0000</mFgColor>
 				<mBgColor>#ffff00</mBgColor>
-				<mSoundFile></mSoundFile>
+				<mSoundFile>D:/WLASNE/Arkadia/sounds/alarm krotki.mp3</mSoundFile>
 				<colorTriggerFgColor>#000000</colorTriggerFgColor>
 				<colorTriggerBgColor>#000000</colorTriggerBgColor>
 				<regexCodeList>
@@ -57,7 +60,7 @@
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
-			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="yes" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 				<name>wprawiony kamien znika</name>
 				<script>cecho("\n&lt;yellow&gt;[WPRAWIONY KAMIEN ZNIKA]")</script>
 				<triggerType>0</triggerType>
@@ -67,7 +70,7 @@
 				<packageName></packageName>
 				<mFgColor>#ff0000</mFgColor>
 				<mBgColor>#ffff00</mBgColor>
-				<mSoundFile></mSoundFile>
+				<mSoundFile>D:/WLASNE/Arkadia/sounds/amen.mp3</mSoundFile>
 				<colorTriggerFgColor>#000000</colorTriggerFgColor>
 				<colorTriggerBgColor>#000000</colorTriggerBgColor>
 				<regexCodeList>
@@ -242,7 +245,8 @@
  ~~~~~~~~~~~~~~~~~~~~~~~
 |     CIEZKO RANNA!     |
  ~~~~~~~~~~~~~~~~~~~~~~~
-]])</script>
+]])
+scripts.utils.bind_functional("+k", false, true)</script>
 					<triggerType>0</triggerType>
 					<conditonLineDelta>0</conditonLineDelta>
 					<mStayOpen>0</mStayOpen>
@@ -290,7 +294,9 @@
  ~~~~~~~~~~~~~~~~~~~~~~~
 |     LEDWO ZYWA!!!     |
  ~~~~~~~~~~~~~~~~~~~~~~~
-]])</script>
+]])
+
+scripts.utils.bind_functional("+k", false, true)</script>
 					<triggerType>0</triggerType>
 					<conditonLineDelta>0</conditonLineDelta>
 					<mStayOpen>0</mStayOpen>
@@ -357,6 +363,179 @@
 					</regexCodePropertyList>
 				</Trigger>
 			</TriggerGroup>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>magia znika!</name>
+				<script>cecho("\n&lt;yellow&gt; ----------------------------------------")
+cecho("\n&lt;yellow&gt;[----------!MAGIA KOMUS ZNIKLA!----------]")
+cecho("\n&lt;yellow&gt; ----------------------------------------")</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>Bialy plomien ogarnia.*, w kilka chwil spopielajac go calkowicie.</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>ogluszenia</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList />
+				<regexCodePropertyList />
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>koniec oglucha</name>
+					<script>cecho("\n&lt;cyan:&gt;!!!!!!     KONIEC OGLUCHA   !!!!!!")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>.*powoli dochodzi do siebie.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>helm ogluch</name>
+					<script>cecho("\n&lt;cyan:&gt;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+cecho("\n&lt;cyan:&gt;!!!!!!     HELM OGLUCH   !!!!!!")
+cecho("\n&lt;cyan:&gt;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>.*zaczyna wpatrywac sie pustym wzrokiem w slepia weza wijacego sie u podstawy.*</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>herbowa ogluch</name>
+					<script>cecho("\n&lt;cyan:&gt;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+cecho("\n&lt;cyan:&gt;!!!!!!   HERBOWA OGLUCH  !!!!!!")
+cecho("\n&lt;cyan:&gt;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>.*trojkatna tarcza rozblyskuje nagle bardzo ostrym blekitnym swiatlem, skierowanym w strone.*</string>
+						<string>.*blekitno-srebrna trojkatna tarcza rozblyskuje nagle niesamowicie ostrym blekitnym swiatlem, skierowanym w strone.*, lecz rozblysk jest tak silny, ze na chwile rowniez ty odruchowo mruzysz oczy przed oslepiajaca jasnoscia!</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>barb/granit ogluch</name>
+					<script>cecho("\n&lt;cyan:&gt;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+cecho("\n&lt;cyan:&gt;!!!!!!!!     OGLUCH    !!!!!!!!")
+cecho("\n&lt;cyan:&gt;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>.*Nieprzyjemne chrzakniecie i metny wzrok przeciwnika swiadcza, ze dobrze wymierzony cios musial trafic w jakies wrazliwe miejsce.</string>
+						<string>.*Przeciwnik mruga oczami, nie bardzo wiedzac, co sie dzieje. Porzadnie go zamroczylo.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+			</TriggerGroup>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>blekitni plytki</name>
+				<script>local kolory2 = matches[2]
+local ret = ""
+
+if kolory2 == "niebieskie oraz czerwone" or kolory2 =="czerwone oraz niebieskie" then
+ret = "PO PLYTKACH:&lt;medium_purple&gt; fioletowe"
+elseif kolory2 == "zolte oraz biale" or kolory2 =="biale oraz zolte" then
+ret  = "PO PLYTKACH:&lt;pale_goldenrod&gt; bezowe"
+elseif kolory2 == "zolte oraz niebieskie" or kolory2 =="niebieskie oraz zolte" then
+ret = "PO PLYTKACH:&lt;green_yellow&gt; zielone"
+elseif kolory2 == "niebieskie oraz czarne" or kolory2 =="czarne oraz niebieskie" then
+ret = "PO PLYTKACH:&lt;royal_blue&gt; granatowe"
+elseif kolory2 =="niebieskie oraz biale" or kolory2 =="biale oraz niebieskie" then
+ret = "PO PLYTKACH:&lt;deep_sky_blue&gt; blekitne"
+elseif kolory2 =="zolte oraz czerwone" or kolory2 =="czerwone oraz zolte" then
+ret = "PO PLYTKACH:&lt;sandy_brown&gt; pomaranczowe"
+elseif kolory2 =="czerwone oraz biale" or kolory2 =="biale oraz czerwone" then
+ret = "PO PLYTKACH:&lt;hot_pink&gt; rozowe"
+elseif kolory2 =="czarne oraz biale" or kolory2 =="biale oraz czarne" then
+ret = "PO PLYTKACH:&lt;light_grey&gt; szare"
+elseif kolory2 =="czerwone oraz czarne" or kolory2=="czarne oraz czerwone" then
+ret = "PO PLYTKACH:&lt;tan&gt; ciemnobrazowe"
+elseif kolory2 =="zolte oraz czarne" or kolory2=="czarne oraz zolte" then
+ret = "PO PLYTKACH:&lt;wheat&gt; jasnobrazowe"
+end
+
+cecho("\n"..ret)</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>Zauwazasz, ze plytki (.*) sa lekko wcisniete w porownaniu z plytkami pozostalych barw.</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
 		</TriggerGroup>
 	</TriggerPackage>
 </MudletPackage>

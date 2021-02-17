@@ -37,15 +37,16 @@ Wymaga: 'opcje krotkie wylacz' (no bo uzywa longa)
 =====================================================
              skrypty_triggerry_inne
 
-- na czarujacego kaplana z Abgetten
 - koloruje obozowy alarm
+- na czarujacego kaplana z Abgetten
 - wprawiony w bron kamien znika (dziala na harpunie)
 - kolorowe tabliczki w reakcji na "Jestes (kondycja)"
 dzieki ktorym lepiej widac, ze ktos ranny, jakby
 umknelo
-- wielka ramka na blokowanie (tyle ze na razie nie
-dziala w pelni i ogolnie wyglada brzydko, proponuje
-wylaczyc ta czesc skryptow)
+- znikajacy magik kogokolwiek widocznego
+- ogluszenia barba, herbowej i magikow w formie
+tabliczki
+- podpowiedzi do kolorowych plytek u blekitnokrwistych
 
 
 ====================================================
