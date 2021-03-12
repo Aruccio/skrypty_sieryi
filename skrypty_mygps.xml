@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<ScriptPackage>
+		<Script isActive="yes" isFolder="no">
+			<name>mygps()</name>
+			<packageName></packageName>
+			<script>function my_gps(id,str)
+amap:set_position(id, true)
+cecho("&lt;orange:&gt;\n"..str)
+end</script>
+			<eventHandlerList />
+		</Script>
+	</ScriptPackage>
+</MudletPackage>
