@@ -3,7 +3,7 @@
 <MudletPackage version="1.001">
 	<TriggerPackage>
 		<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-			<name>nazmeczenie</name>
+			<name>nazmeczenie (i inne emocje)</name>
 			<script></script>
 			<triggerType>0</triggerType>
 			<conditonLineDelta>0</conditonLineDelta>
@@ -18,7 +18,7 @@
 			<regexCodeList />
 			<regexCodePropertyList />
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Calkowicie wycienczony/a</name>
+				<name>Calkowicie wycienczony</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("ansi_light_red")
@@ -36,14 +36,18 @@ resetFormat()</script>
 				<regexCodeList>
 					<string>(.*)Zziajanym glosem meldujesz, ze jestes (calkowicie wycienczon[ya])</string>
 					<string>Zziajanym glosem(.*)melduje, ze jest (calkowicie wycienczon[ya])</string>
+					<string>(.*) wykorzystujac chwile przerwy wierzchem dloni ociera z czola geste krople potu, (calkowicie wycienczon[ya]) ciezka praca straznika.</string>
+					<string>Ocierajac pot ze swego grubego karku, (.*) zziajanym glosem oznajmia, ze jest (calkowicie wycienczon[ya]).</string>
 				</regexCodeList>
 				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
 					<integer>1</integer>
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>wycienczony/a</name>
+				<name>wycienczona</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("ansi_light_red")
@@ -61,14 +65,18 @@ resetFormat()</script>
 				<regexCodeList>
 					<string>(.*)Zziajanym glosem meldujesz, ze jestes (wycienczon[ya])</string>
 					<string>Zziajanym glosem(.*)melduje, ze jest (wycienczon[ya])</string>
+					<string>(.*) wykorzystujac chwile przerwy wierzchem dloni ociera z czola geste krople potu, (wycienczon[ya]) ciezka praca straznika.</string>
+					<string>Ocierajac pot ze swego grubego karku, (.*) zziajanym glosem oznajmia, ze jest (wycienczon[ya]).</string>
 				</regexCodeList>
 				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
 					<integer>1</integer>
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Nieco wyczerpany/a</name>
+				<name>Nieco wyczerpana</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("ansi_light_yellow")
@@ -86,14 +94,18 @@ resetFormat()</script>
 				<regexCodeList>
 					<string>Zziajanym glosem(.*)melduje, ze jest (nieco wyczerpan[ya]).</string>
 					<string>(.*)Zziajanym glosem meldujesz, ze jestes (nieco wyczerpan[ya]).</string>
+					<string>(.*) wykorzystujac chwile przerwy wierzchem dloni ociera z czola geste krople potu, (nieco wyczerpan[ya]) ciezka praca straznika.</string>
+					<string>Ocierajac pot ze swego grubego karku, (.*) zziajanym glosem oznajmia, ze jest (nieco wyczerpan[ya]).</string>
 				</regexCodeList>
 				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
 					<integer>1</integer>
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Bardzo zmeczony/a</name>
+				<name>Bardzo zmeczony</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("ansi_light_yellow")
@@ -111,14 +123,18 @@ resetFormat()</script>
 				<regexCodeList>
 					<string>Zziajanym glosem(.*)melduje, ze jest (bardzo zmeczon[ya])</string>
 					<string>(.*)Zziajanym glosem meldujesz, ze jestes (bardzo zmeczon[ya])</string>
+					<string>(.*) wykorzystujac chwile przerwy wierzchem dloni ociera z czola geste krople potu, (bardzo zmeczon[ya]) ciezka praca straznika.</string>
+					<string>Ocierajac pot ze swego grubego karku, (.*) zziajanym glosem oznajmia, ze jest (bardzo zmeczon[ya]).</string>
 				</regexCodeList>
 				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
 					<integer>1</integer>
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Zmeczony/a</name>
+				<name>Zmeczona</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("green")
@@ -136,14 +152,18 @@ resetFormat()</script>
 				<regexCodeList>
 					<string>Charakterystycznym wojskowym tonem(.*)melduje, ze jest (zmeczon[ya])</string>
 					<string>(.*)Charakterystycznym wojskowym tonem meldujesz, ze jestes (zmeczon[ya])</string>
+					<string>(.*)spokojnym glosem oznajmia, ze jest (zmeczon[ya])</string>
+					<string>(.*) wykorzystujac chwile przerwy wierzchem dloni ociera z czola geste krople potu, (zmeczon[ya]) ciezka praca straznika.</string>
 				</regexCodeList>
 				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
 					<integer>1</integer>
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Troche zmeczony/a</name>
+				<name>Troche zmeczony</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("green")
@@ -161,14 +181,18 @@ resetFormat()</script>
 				<regexCodeList>
 					<string>Charakterystycznym wojskowym tonem(.*)melduje, ze jest (troche zmeczon[ya]).</string>
 					<string>(.*)Charakterystycznym wojskowym tonem meldujesz, ze jestes (troche zmeczon[ya]).</string>
+					<string>(.*)spokojnym glosem oznajmia, ze jest (troche zmeczon[ya]).</string>
+					<string>(.*) wykorzystujac chwile przerwy wierzchem dloni ociera z czola geste krople potu, (troche zmeczon[ya]) ciezka praca straznika.</string>
 				</regexCodeList>
 				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
 					<integer>1</integer>
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Wypoczety/a</name>
+				<name>Wypoczeta</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("green")
@@ -186,14 +210,16 @@ resetFormat()</script>
 				<regexCodeList>
 					<string>Charakterystycznym wojskowym tonem(.*)melduje, ze jest (wypoczet[ya]).</string>
 					<string>(.*)Charakterystycznym wojskowym tonem meldujesz, ze jestes (wypoczet[ya]).</string>
+					<string>(.*)spokojnym glosem oznajmia, ze jest (wypoczet[ya]).</string>
 				</regexCodeList>
 				<regexCodePropertyList>
+					<integer>1</integer>
 					<integer>1</integer>
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>W pelni wypoczety/a</name>
+				<name>W pelni wypoczety</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("green")
@@ -211,14 +237,16 @@ resetFormat()</script>
 				<regexCodeList>
 					<string>Charakterystycznym wojskowym tonem(.*)melduje, ze jest (w pelni wypoczet[ya])</string>
 					<string>(.*)Charakterystycznym wojskowym tonem meldujesz, ze jestes (w pelni wypoczet[ya])</string>
+					<string>(.*)spokojnym glosem oznajmia, ze jest (w pelni wypoczet[ya])</string>
 				</regexCodeList>
 				<regexCodePropertyList>
+					<integer>1</integer>
 					<integer>1</integer>
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>wyczerpany/a</name>
+				<name>wyczerpany</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("ansi_light_yellow")
@@ -236,14 +264,18 @@ resetFormat()</script>
 				<regexCodeList>
 					<string>(.*)Zziajanym glosem meldujesz, ze jestes (wyczerpan[ya])</string>
 					<string>Zziajanym glosem(.*)melduje, ze jest (wyczerpan[ya]).</string>
+					<string>(.*) wykorzystujac chwile przerwy wierzchem dloni ociera z czola geste krople potu, (wyczerpan[ya]) ciezka praca straznika.</string>
+					<string>Ocierajac pot ze swego grubego karku, (.*) zziajanym glosem oznajmia, ze jest (wyczerpan[ya]).</string>
 				</regexCodeList>
 				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
 					<integer>1</integer>
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Bardzo wyczerpany/a</name>
+				<name>Bardzo wyczerpana</name>
 				<script>selectCurrentLine()
 selectString(matches[3], 1)
 fg("ansi_light_red")
@@ -261,8 +293,12 @@ resetFormat()</script>
 				<regexCodeList>
 					<string>(.*)Zziajanym glosem meldujesz, ze jestes (bardzo wyczerpan[ya]).</string>
 					<string>Zziajanym glosem(.*)melduje, ze jest (bardzo wyczerpan[ya]).</string>
+					<string>(.*) wykorzystujac chwile przerwy wierzchem dloni ociera z czola geste krople potu, (bardzo wyczerpan[ya]) ciezka praca straznika.</string>
+					<string>Ocierajac pot ze swego grubego karku, (.*) zziajanym glosem oznajmia, ze jest (bardzo wyczerpan[ya]).</string>
 				</regexCodeList>
 				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
 					<integer>1</integer>
 					<integer>1</integer>
 				</regexCodePropertyList>
